@@ -2,6 +2,7 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 const contact = require('../models/contact');
+
 //Create reference to the model
 let Contact = require('../models/contact');
 
@@ -11,6 +12,10 @@ module.exports.displayContactList = (req,res,next)=>{
         if(err)
         {
             return console.error(err);
+        }
+        // only authenicated user can access this page
+        else if(!req.user){
+            res.redirect('/login');
         }
         else
         {
