@@ -1,0 +1,113 @@
+/* 
+File name: app.css
+Student name: Zhikun Fan
+StudentID: 301250119
+Date 09/30/2022
+*/
+
+/* section welcome message */
+.welcomemsg{
+    padding-top: 20%;
+    font-size: medium;
+    color: beige;
+}
+/* section welcome message */
+
+/* section welcome message paragraph */
+.welcomedescription{
+    margin-top: 5%;
+    font-size: xx-large;
+    color: beige;
+}
+/* section welcome message paragraph */
+
+/* section picture */
+.rounded{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+/* section picture */
+
+/* section about me page description */
+.description {
+    font-size:x-large;
+    font-style: italic;
+    color: bisque;
+    
+}
+/* section about me page description */
+
+/* section about me page button */
+.aboutMeBtn{
+    position: absolute;
+    bottom: 20%;
+    right: 47.5%;
+}
+/* section about me page button */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+/* section main page background */
+.mainbackground{
+    /* The image used */
+    background-image: url("/Assets/images/background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* section main page background */
+
+/* section service page background */
+.servicebackground{
+    /* The image used */
+    background-image: url("/Assets/images/service.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* section service page background */
+
+/* section image for projects*/
+.projectimg{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.mb-4{
+    background-image: none;
+}
+/* section image for projects*/
+
+/* section contact list*/
+.contactlist{
+    margin-top: 50px;
+}
+
+.contactlist li{
+    padding: 20px;
+}
+/* section contact list*/
+
+/* section image slider for services*/
+.slider{
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+}
+/* section image slider for services*/
